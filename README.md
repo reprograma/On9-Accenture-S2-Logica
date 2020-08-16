@@ -170,6 +170,8 @@ Você sabia que é possível até mesmo somar strings? Em JavaScript, isso é ch
 Você verá outras maneiras de fazer concatenação e fazer até mais coisas com strings mais adiante neste curso.
 Mas, por agora, pratique utilizando o operador de adição `+`.
 
+##### Agora é com você!
+
 [**Quizz**](https://forms.gle/vAXGQygafDya8Jte7)
 
 #### Boolean
@@ -248,6 +250,8 @@ Os caracteres subsequentes podem também ser
 
 Uma variável não pode ser uma palavra reservada, [clique aqui para saber quais são](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Lexical_grammar#Keywords)
 
+**Exercício extra:** <https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/First_steps/Teste_suas_habilidades:_variaveis>
+
 ---
 
 ### Ferramentas para receber dados de maneira interativa
@@ -287,3 +291,228 @@ Vamos fazer um programa que peça dois números e imprima no console a soma dess
 Escreva um programa que receba um valor em metros e o exiba no `console` convertido em milímetros
 
 ---
+
+### Operadores aritméticos e lógicos
+
+#### Operadores de atribuição
+
+O operador de atribuição básico é o igual `(=)`, que atribui o valor do operando à direita ao operando à esquerda.
+
+Exemplo:
+
+```javascript
+var diaDaSemana = "domingo";
+
+diaDaSemana = "segunda";
+
+console.log(diaDaSemana); // segunda
+```
+
+Isto é, x = y atribui o valor de y a x.
+
+#### Igual
+
+```javascript
+const y = 7;
+const x = y; // x é igual à 7
+```
+
+#### Operadores Aritméticos
+
+##### Adição (+)
+
+```javascript
+const y = 7;
+const x = 3;
+
+const resultado = y + x;
+console.log(resultado); // 10
+```
+
+##### Subtração (-)
+
+```javascript
+const y = 5;
+const x = 2;
+const resultado = y - x;
+console.log(resultado); // 3
+```
+
+##### Multiplicação(\_)
+
+```javascript
+const y = 4;
+const x = 5;
+const resultado = y _ x
+console.log(resultado) // 20
+```
+
+##### Divisão (/)
+
+O operador de divisão produz o quociente de seus operandos onde o operando da esquerda é o dividendo e o da direita é o divisor.
+
+```javascript
+const y = 10;
+const x = 2;
+const resultado = y / x;
+console.log(resultado); // 5
+```
+
+##### Módulo (%)
+
+O operador módulo retorna o resto inteiro da divisão de um numero pelo outro.
+
+```javascript
+const y = 10;
+const x = 2;
+const resultado = y % x;
+console.log(resultado); // 0
+```
+
+##### Operadores de Comparação - Relacional e Igualdade
+
+##### == Igual
+
+Retorna verdadeiro caso os operandos sejam iguais.
+
+```javascript
+3 == 3; // true
+"3" == 3; // true
+3 == "3"; // true
+```
+
+##### != Não igual (diferente)
+
+Retorna verdadeiro caso os operandos não sejam iguais.
+
+```javascript
+5 != 4; // true
+"4" != "3"; // true
+```
+
+##### === Estritamente igual
+
+Retorna verdadeiro caso os operandos sejam iguais e do mesmo tipo. Veja também Object.is e igualdade em JS.
+
+```javascript
+3 === "3"; // false
+```
+
+#### !== Estritamente não igual (diferente)
+
+Retorna verdadeiro caso os operandos não sejam iguais e/ou não sejam do mesmo tipo.
+
+```javascript
+3 !== "3"; // true
+3 !== "3"; // true
+```
+
+O _double equals_ vai tentar nos ajudar na comparação, e ao notar que estamos tentando comparar tipos diferentes (string e number) ele vai tentar converter a string para number. No caso acima ele consegue e por isso temos o resultado true.
+
+Entao por baixo dos panos o que aconteceu foi: 
+
+```javascript
+2 == Number("2") //true
+```
+
+Com o _triple equals_ o JavaScript nunca tenta converter os valores. Por isso, o resultado `false`.
+
+Sendo assim, **recomenda-se usar o triple equals para evitar surpresas**.
+
+E a internet não perdoa as surpresas:
+
+![Patrick agindo como o Javascript ao fazer comparações estritas ou fracas](assets/meme-javascripto.png)
+
+> Dica
+>
+> Saiba mais sobre [coerção implícita do javascript](https://dev.to/promhize/what-you-need-to-know-about-javascripts-implicit-coercion-e23#:~:text=Javascript's%20implicit%20coercion%20simply%20refers,it%20to%20the%20right%20type.)
+
+
+##### > maior que
+O operador de Maior retorna true se o operando da esquerda for maior que o operando da direita.
+
+```javascript
+4 > 3 // true
+```
+
+##### >= maior ou igual a
+O operador maior ou igual retorna true se o operando da esquerda for maior ou igual ao operando da direita.
+
+```javascript
+4 >= 3 // true
+3 >= 3 // true
+```
+
+##### < menor que
+O operador menor retorna true (verdadeiro) se o operando da esquerda for menor que o operando da direita.
+
+```javascript
+3 < 4 // verdade
+```
+
+##### <= menor ou igual a
+O operador menor ou igual retorna true (verdadeiro) se o operando da esquerda for menor ou igual ao operando da direita.
+
+```javascript
+3 <= 4 // verdade
+```
+
+#### Operadores Lógicos
+
+
+##### && E lógico 
+Se o primeiro valor for verdadeiro, ou puder ser considerado ou convertido pra verdadeiro retorna o segundo valor.
+
+> Se for feriado **e** estiver sol, vou à praia.
+> 
+> É feriado? Sim. Está sol? Sim. 🏖️
+> 
+> É feriado? Não. Está Sol? Sim. 🏠
+
+Se o primeiro valor for falso, retorna falso.
+
+```javascript
+true && "oi" // "oi"
+"oi" && true // true
+true && false // false
+```
+
+##### || Ou lógico 
+Se o primeiro valor for verdadeiro, ou puder ser considerado ou convertido pra verdadeiro retorna o primeiro valor.
+
+> Se for feriado **ou** estiver sol, vou à praia.
+> 
+> É feriado? Sim. Está sol? Não. 🏖️🌧️
+> 
+> É feriado? Não. Está sol? Sim. 🏖️👀
+
+Se o primeiro valor for falso, retorna o segundo valor.
+
+```javascript
+false || true // true
+false || false // false
+false || "oi" // "oi"
+false || 0 // 0
+```
+
+##### ! Não lógico 
+Esse operador inverte o valor de uma expressão
+
+Obs: Se um valor pode ser convertido para verdadeiro, este valor é chamado de truthy. Se um valor pode ser convertido para falso, este valor é chamado de falsy.
+
+Exemplos de expressões que podem ser convertidas para falso são:
+
+- null;
+- NaN;
+- 0;
+- string vazia (""); 
+- undefined.
+
+Todos os outros são considerados verdadeiros.
+
+```javascript
+!true // false
+!false // true
+!'Oi' // false
+!'' // true
+```
