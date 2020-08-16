@@ -516,3 +516,118 @@ Todos os outros são considerados verdadeiros.
 !'Oi' // false
 !'' // true
 ```
+---
+
+## Condicionais
+
+Usamos para verificar uma condição e definir se algo deve ou não acontecer a partir da condição dada.
+
+É a linguagem que utilizamos para nos comunicar, repare:
+
+Se amanhã fizer sol, vou viajar para a praia.
+
+Temos uma condição (Se amanhã fizer sol) para executar uma ação (viajar para a praia) dependendo do resultado dessa condição. Se verdadeira, a ação é executada.
+
+#### Expressões condicionais simples
+
+```javascript
+// Variável booleana verdadeira
+const sol = true;
+
+// Condição
+if ( sol ) {
+	// Ação
+	console.log('Vou viajar para a praia!');
+}
+```
+
+#### Estrutura if / else
+
+```javascript
+// Variável booleana verdadeira
+const sol = false;
+
+// Condição
+if ( sol ) {
+	// Ação
+	console.log('Vou viajar para a praia!');
+}else{
+	// Ação
+	console.log('Vou ao cinema');
+}
+```
+
+
+#### Estrutura if / else if / else
+
+```javascript
+// Variável booleana verdadeira
+const hora = 8;
+
+// Condição
+if ( hora <= 12 ) {
+	// Ação
+	console.log('Bom dia');
+}else if( hora <= 18){
+	// Ação
+	console.log('Boa tarde');
+}else{
+	// Ação
+	console.log('Boa noite');
+}
+```
+
+```javascript
+if ( condição ) {
+	// Ação
+} else if ( outra condição ) {
+	// Ação
+} else if ( outra condição ) {
+	// Ação
+} else if ( outra condição ) {
+	// Ação
+} else if ( quantas condições quiser ) {
+	// Ação
+} else {
+	// Ação final se nenhuma condição for verdadeira
+}
+```
+#### Estrutura switch
+
+```javascript
+
+switch (expression) {
+  case choice1:
+    run this code
+    break;
+
+  case choice2:
+    run this code instead
+    break;
+    
+  // include as many cases as you like
+
+  default:
+    actually, just run this code
+}
+```
+
+
+> Dica
+> 
+> [Tomando decisões no seu código — condicionais](https://developer.mozilla.org/pt-BR/docs/Aprender/JavaScript/Elementos_construtivos/conditionals)
+> 
+
+#### Exercício guiado
+
+Vamos escrever um programa que receba um número digitado no `prompt`
+
+Então, se o número for múltiplos de 3 o console imprimirá a palavra **“Fizz”** .
+
+Se for múltiplo de 5 mostraremos **“Buzz”**. 
+
+Agora, se ele for múltiplo de 3 e 5 mostre **“FizzBuzz”**.
+
+#### Agora é com você:
+
+Receba uma palavra pelo `prompt` e conte o número de vogais dessa string. Imprima o resultado no console.
