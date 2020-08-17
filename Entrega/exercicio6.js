@@ -1,9 +1,9 @@
 console.log("Digite 5 notas para que a media seja calculada")
-const nota1 = Number(prompt("Nota 1:"))
-const nota2 = Number(prompt("Nota 2:"))
-const nota3 = Number(prompt("Nota 3:"))
-const nota4 = Number(prompt("Nota 4:"))
-const nota5 = Number(prompt("Nota 5:"))
+let nota1 = prompt("Nota 1:")
+let nota2 = prompt("Nota 2:")
+let nota3 = prompt("Nota 3")
+let nota4 = prompt("Nota 4:")
+let nota5 = prompt("Nota 5:")
 
 let media = (nota1+nota2+nota3+nota4+nota5) / 5
 
