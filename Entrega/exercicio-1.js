@@ -1,4 +1,7 @@
 //********************** Exercício 1 **********************
+
+// Converta uma temperatura digitada em Celsius para Fahrenheit.
+
 let temperaturaCelsius = Number(
   prompt("Digite uma temperatura em graus Celsius: ")
 );
