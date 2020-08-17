@@ -630,4 +630,4 @@ Agora, se ele for múltiplo de 3 e 5 mostre **“FizzBuzz”**.
 
 #### Agora é com você:
 
-Receba uma palavra pelo `prompt` e conte o número de vogais dessa string. Imprima o resultado no console.
+Receba uma palavra pelo `prompt` e diga se essa palavra começa com uma vogal. Imprima **sim** ou **não** no console.
