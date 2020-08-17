@@ -1,4 +1,4 @@
-//********************** Exercício 2 ********************** (258 °F − 32) × 5/9 = 125,556 °C
+//********************** Exercício 2 ********************** 
 let temperaturaFahrenheit = Number(
   prompt("Digite uma temperatura em graus Fahrenheit: ")
 );
