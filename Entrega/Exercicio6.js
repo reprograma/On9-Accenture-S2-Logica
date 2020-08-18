@@ -12,11 +12,11 @@ let secondNote = Number(prompt('Informe nota de número 2: '));
 let thirdNote = Number(prompt('Informe nota de número 3: '));
 let fourthNote = Number(prompt('Informe nota de número 4: '));
 let fifthNote = Number(prompt('Informe nota de número 5: '));
-let resultado = firstNote + secondNote + thirdNote + fourthNote + fifthNote;
+let result = firstNote + secondNote + thirdNote + fourthNote + fifthNote;
 
-if (resultado / 5 >= 7) {
+if (result / 5 >= 7) {
   console.log('Parabéns, você foi Aprovado!!!!');
-} else if (resultado / 5 < 5) {
+} else if (result / 5 < 5) {
   console.log(
     'Infelizmente você não foi aprovado. Mas não fique triste, ano que vem tente novamente.'
   );
