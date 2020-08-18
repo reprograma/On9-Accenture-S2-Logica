@@ -10,4 +10,4 @@ let kilometerTraveled = parseFloat(
 let kilometerRunResult = kilometerTraveled * 0.15;
 let ValueDays = day * 60;
 let priceToPay = kilometerRunResult + ValueDays;
-console.log(' O valor total a pagar é de ' + 'R$ ' + priceToPay + '.');
+console.log(' O valor total a pagar é de ' + 'R$ ' + priceToPay);
