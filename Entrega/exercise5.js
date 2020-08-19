@@ -23,36 +23,3 @@ if ((sideOne < (sideTwo + sideThree)) && (sideTwo < (sideOne + sideThree)) && (s
 else {
     console.log("Os valores não podem formar um triângulo.");
 }
-
-
-
-/* if ((sideOne < (sideTwo + sideThree)) && (sideTwo < (sideOne + sideThree)) && (sideThree < (sideOne + sideTwo))) {
-    if ((sideOne === sideTwo) && (sideOne === sideThree) && (sideTwo === sideThree)) {
-        console.log("Triângulo equilátero");
-    } else if (((sideOne = sideTwo) && (sideOne != sideThree)) || ((sideOne = sideThree) && (sideOne != sideTwo)) || ((sideTwo = sideThree) && (sideTwo != sideOne))) {
-        console.log("Triângulo isósceles");
-    } else if ((sideOne != sideTwo) && (sideOne != sideThree) && (sideTwo != sideThree)) {
-        console.log("Triângulo escaleno");
-    }
-} else {    
-    console.log("Não é um triângulo");
-} */
-
-
-
-
-
-
-/* se (validade = VERDADEIRO) então
-se (l1 = l2) e (l1 = l3) e (l2 = l3) então
-escreva ("Triângulo equilátero")
-fimse
-se (l1 <> l2) xou (l1 <> l3) xou (l2 <> l3) então
-escreva ("Triângulo isóceles")
-fimse
-se (l1 <> l2) e (l1 <> l3) e (l2 <> l3) então
-escreva ("Triângulo escaleno")
-fimse
-senao
-escreva ("Não é um triângulo")
-fimse */
