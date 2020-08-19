@@ -5,7 +5,6 @@
 //Opção 1
 let valor = prompt("Qual a temperatura está no momento em graus Celsius?")
 let conta = ((9*Number(valor))/5) + 32 
-
 console.log("A temperatura em Fahrenheit é "+conta)
 
 //Opção 2
