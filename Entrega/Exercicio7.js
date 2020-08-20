@@ -16,6 +16,6 @@ let horasPerdidasInt =  Math.trunc(horasPerdidas)
 let minutosPerdidos = ((horasPerdidas-horasPerdidasInt)*60)
 let minutosPerdidosInt = Math.trunc(minutosPerdidos)
 
+alert("dias perdidos: "+diasPerdidosInt +" // horas perdidas: " + horasPerdidasInt + " // minutos perdidos: " + minutosPerdidosInt)
 console.log("dias perdidos: "+diasPerdidosInt +" // horas perdidas: " + horasPerdidasInt + " // minutos perdidos: " + minutosPerdidosInt)
 
-//consertar formula
