@@ -42,12 +42,12 @@ if (Number(multa) <= 0){
 
 //Opção 3
 
-let pesoPeixes = prompt("Quantos kilos de peixe tem?")
+let pesoPeixes = Number(prompt("Quantos kilos de peixe tem?"))
 
-let multa = Number(pesoPeixes) - 50 
+let multa = pesoPeixes - 50 
 
 let resultado = ""
-if (Number(multa) > 0){
+if (multa > 0){
     resultado = (multa * 4)
     console.log("João, com esse peso de peixes você pagará de multa R$"+resultado+" reais. Pois, esta maior que o estabelecido pelo regulamento de pesca do estado de São Paulo (50 quilos) sendo R$ 4,00 por quilo excedente.")
 } else {
