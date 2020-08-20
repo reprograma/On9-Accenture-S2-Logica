@@ -11,4 +11,5 @@ let fine = excessFish * 4;
 
 if (fishWeight <= 50) {
   console.log('Não há excesso, você não deverá pagar multas!!');
-} else console.log('Você deverá pagar uma multa de ${multa} reais.');
+} else console.log('Você deverá pagar uma multa de ' + fine + ' reais.');
+let pesoPeixe = prompt('digite o peso do peixe em KG');
