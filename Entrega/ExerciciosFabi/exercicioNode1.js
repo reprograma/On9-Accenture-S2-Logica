@@ -4,5 +4,5 @@
 
 var celsius = 32
 
-var farenheit = console.log("A temperatura "+celsius+"°C, transformada em Farenheit é "+((9 * celsius/5) + 32)+" °F")
+console.log("A temperatura "+celsius+"°C, transformada em Farenheit é "+((9 * celsius/5) + 32)+" °F")
 
