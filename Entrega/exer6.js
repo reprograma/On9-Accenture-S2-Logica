@@ -6,11 +6,11 @@
 //para ser **reprovada** a média tem que ser menor que 5
 //para ir para **recuperação** a média tem que ser maior ou igual a 5 e menor que 7
 
-let nota1 = prompt("Digite a nota 1")
-let nota2 = prompt("Digite a nota 2")
-let nota3 = prompt("Digite a nota 3")
-let nota4 = prompt("Digite a nota 4")
-let nota5 = prompt("Digite a nota 5")
+let nota1 = parseFloat(prompt("Digite a nota 1"))
+let nota2 = parseFloat(prompt("Digite a nota 2"))
+let nota3 = parseFloat(prompt("Digite a nota 3"))
+let nota4 = parseFloat(prompt("Digite a nota 4"))
+let nota5 = parseFloat(prompt("Digite a nota 5"))
 
 let media = (nota1 + nota2 + nota3 + nota4 + nota5)/5
 
