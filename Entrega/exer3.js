@@ -6,17 +6,15 @@
 //variável excesso e na variável multa o valor da multa que João deverá pagar. Caso
 //contrário mostrar tais variáveis com o conteúdo ZERO.
 
-let pesoPeixe = prompt("Digite o peso do peixe em Kg")
-
-if ( pesoPeixe <= 50 ){
-    pesoExcedente = 0
-    multa = 0 
- 
-console.log("Peso do peixe dentro da norma " + pesoExcedente + " kg a mais e multa R$ " + multa)
+let peso = prompt("Qual o peso do peixe?")
+let excesso = 0
+let multa = 0
+if(peso <= 50){
+    console.log("Peso não foi excedido, logo excesso = 0 e multa = 0")
 }
+else {
+    excesso = peso - 50
+    multa = 4* excesso
 
-if(pesoPeixe > 50){
-    pesoExcedente = Number(pesoPeixe) - 50
-    multa = pesoExcedente * 4
-console.log("kg a mais: " + pesoExcedente + " valor multa:R$ " + multa)
+    console.log("Peso foi excedido, logo excesso = " +excesso + " multa = " +multa)
 }
