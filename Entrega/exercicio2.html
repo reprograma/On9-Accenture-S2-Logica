@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercício 2 - Luana Cristina</title>
+    <link rel="icon" href="img/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="css/entrega.css" />
+  </head>
+  <body>
+    <nav class="barra-navegacao">
+      <img
+        class="barra-navegacao__logotipo"
+        src="img/logotipo-reprograma.png"
+      />
+    </nav>
+    <header class="cabecalho">
+      <h1 class="cabecalho__titulo">Exercício 2 - Luana Cristina</h1>
+    </header>
+    <main class="conteudo-principal">
+      <section class="secao secao-fahrenheit">
+        <article class="secao__conteudo">
+          <div class="secao__formulario">
+            <fieldset>
+              <legend>Qual a temperatura você deseja converter de Fahrenheit para Celsius?</legend>
+              <div class="secao__formulario__grupo">
+                <label for="temp-fahrenheit">° Fahrenheit</label>
+                <input id="temp-fahrenheit" type="number" value="0" />
+              </div>
+            </fieldset>
+            <button onclick="calcularTemperaturaCelsius()">Calcular Celsius</button>
+          </div>
+        </article>
+        <footer class="secao__rodape">
+          <h3 class="secao__rodape__valor">
+            <span id="resposta">Resposta</span><small>°C</small>
+          </h3>
+          <p class="secao__rodape__legenda">Essa é a Temperatura.</p>
+        </footer>
+      </section>
+       <a href="index.html">Voltar</a>
+    </main>
+    <footer class="rodape">Feito com muito ♥</footer>
+    <script type="text/javascript" src="js/exercicio2.js"></script>
+  </body>
+</html>
