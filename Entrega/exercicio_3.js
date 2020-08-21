@@ -12,4 +12,4 @@ if (peso > 50) {
     multa = excesso * 4
     console.log("O valor em excesso é de " +excesso+ " e o total da multa é " + multa)
 }else 
-console.log ("O peso do peixe é" + peso + "e não há multas.")
+console.log ("O peso do peixe é " + peso + " e não há multas.")

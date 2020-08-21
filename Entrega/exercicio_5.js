@@ -5,10 +5,12 @@ let A = Number(prompt("Digite o valor do lado 1:"))
 let B = Number(prompt("Digite o valor do lado 2:"))
 let C = Number(prompt("Digite o valor do lado 3:"))
 
+if (A > 0 && B > 0 && C >0) {
+
 if (A===B && B===C){
     console.log("O Triangulo é equilátero")
 } else if (A==B && B != C || A==C&&C!=B || B==C&&A!=C){
     console.log("O triângulo é isoceles")
-}else {
+}else 
     console.log ("O triangulo é escaleno")
 }
