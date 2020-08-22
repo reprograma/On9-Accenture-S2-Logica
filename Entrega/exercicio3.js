@@ -8,5 +8,5 @@ console.log("Peso dentro da norma:" + pesoExcedente + multa)
 else if (pesoPeixe > 50){
 var pesoExcedente = (pesoPeixe) - 50
 var multa = pesoExcedente * 4
-console.log("Valor da Multa R$:" + multa)
+console.log("Peso Excedente foi:" + pesoExcedente + "Valor da Multa R$:" + multa) 
 }
