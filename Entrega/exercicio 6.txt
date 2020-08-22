@@ -1,0 +1,18 @@
+let matematica = Number(prompt("Vamos calcular sua média do semetre, para isso você irá informar a nota que tirou em cada disciplina. Inicie informando sua nota em Matemática:"));
+let portugues = Number(prompt("Digite sua nota na disciplina de Português:"))
+let ciencias = Number(prompt("Digite a nota que tirou em Ciências:"))
+let historia = Number(prompt("Digite sua nota de História:"))
+let geografia = Number(prompt("Digite quanto tirou em Geografia:"))
+
+var media = (matematica + portugues + ciencias + historia +geografia)/5
+
+if (media < 5) {
+  // Ação
+  console.log("Reprovada");
+} else if (media >= 7) {
+  // Ação
+  console.log("Aprovada");
+} else if (media >= 5 && media < 7) {
+  console.log("Recuperação");
+  
+}

@@ -1,0 +1,3 @@
+let fahrenheit = prompt("Digite a temperatura em graus Fahrenheit: ")
+let celsius = (Number(fahrenheit) - 32) * 1.8
+console.log("Convertendo graus Fahrenheit em Celsius : " + celsius + " °C")

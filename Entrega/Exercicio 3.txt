@@ -1,0 +1,13 @@
+const pesoPeixes = Number(prompt("Quantos quilos de peixe você pescou?"));
+var excesso = pesoPeixes - 50
+var multa = excesso * 4
+
+if (pesoPeixes <= 50) {
+  // Ação
+  console.log("Excesso e multa são iguais a ZERO");
+} else if (pesoPeixes > 50) {
+  // Ação
+  console.log("Há excesso de: " + excesso + "kg");
+  console.log("O valor da multa é de: R$" + multa);
+  
+}

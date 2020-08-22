@@ -1,0 +1,4 @@
+let kmPercorridos = prompt("Digite a quantidade de km percorridos pelo carro alugado: ")
+let diasDeAluguel = prompt("Digite a quantidade de dias nos quais o carro ficou alugado: ")
+let preçoAPagar = (Number(diasDeAluguel) *60) + (Number(kmPercorridos) * 0.15)
+console.log("Total a pagar: R$ " +preçoAPagar)

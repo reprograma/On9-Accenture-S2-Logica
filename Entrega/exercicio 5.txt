@@ -1,0 +1,23 @@
+let ladoX = parseInt(prompt("Digite o lado X do triângulo"));
+let ladoY = parseInt(prompt("Digite o lado Y do triângulo"));
+let ladoZ = parseInt(prompt("Digite o lado Z do triângulo"));
+
+if (ladoX <= 0 || ladoY <=0 || ladoZ <=0){
+  console.log("Nenhum valor digitado pode ser 0 (zero) ou negativo.")
+if (ladoY + ladoZ > ladoX && ladoX + ladoZ > ladoY && ladoX + ladoY > ladoZ) {
+  // Ação
+  console.log("Os valores podem formar um triângulo.");
+  if (ladoX === ladoY && ladoY === ladoZ) {
+  // Ação
+  console.log("Este triângulo é equilátero, ou seja, os três lados tem as mesmas medidas.");
+} else if (ladoX != ladoY && ladoY != ladoZ && ladoZ != ladoX) {
+  // Ação
+  console.log("Este triângulo é escaleno, ou seja, as medidas dos lados são todas diferentes.");
+} else if (ladoX === ladoY || ladoX === ladoZ || ladoY === ladoX || ladoY === ladoZ || ladoZ === ladoX || ladoZ === ladoY) {
+  // Ação
+  console.log("Este triângulo é isósceles, possui pelo menos dois lados congruentes, ou seja, com a mesma medida.");
+} else {
+  console.log ("Os valores não podem formar um triângulo.") 
+}
+}
+}
