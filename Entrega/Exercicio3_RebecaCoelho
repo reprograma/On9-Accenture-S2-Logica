@@ -1,0 +1,11 @@
+var peixePeso = Number (prompt("Digite a quantidade em quilos dos peixes:" ))
+var excesso = (peixePeso > 50 kg)
+var multa = 4 reais
+
+if (pesoPeixe > 50 kg) {
+
+    console.log ( "O peso dos peixes é maior que 50 kg. E pagará multa de 4 reais por quilo excedente." )
+
+} else (pesoPeixe =< 50 kg) {
+    console.log ( "O peso dos peixes é igual ou inferior aos 50 kg. Não pagará multa." )
+}

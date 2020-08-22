@@ -1,0 +1,20 @@
+var nota1 = Number (prompt("Digite a primeira nota: "))
+var nota2 = Number (prompt("Digite a segunda nota: "))
+var nota3 = Number (prompt("Digite a terceira nota: "))
+var nota4 = Number (prompt("Digite a quarta nota:" ))
+var nota5 = Number (prompt("Digite a quinta nota:" ))
+var mediaAprovada = 7
+var mediaReprovada = 5 
+var mediaRecuperacao = >= 5 & < 7
+var media = nota1 + nota2 + nota3 + nota4 + nota5 / 5 
+
+if (nota1 + nota2 + nota3 + nota4 + nota5 / 5 >= mediaAprovada) {
+    console.log ("A aluna foi aprovada com média maior ou igual a 7.")
+
+} else if (nota1 + nota2 + nota3 + nota4 + nota5 / 5 < mediaReprovada) {
+    console.log ("A aluna está reprovada com média menor que 5.")
+
+} else (nota1 + nota2 + nota3 + nota4 + nota5 / 5 = mediaRecuperacao) {
+    console.log ("A aluna está em recuperação.")
+}
+

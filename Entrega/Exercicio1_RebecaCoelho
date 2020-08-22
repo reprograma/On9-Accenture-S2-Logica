@@ -1,0 +1,5 @@
+var celsius = Number (prompt("Digite a temperatura em Celsius: "))
+var calculoFahrenheit = celsius * 9 / 5 + 32
+var fahrenheit = celsius + calculoFahrenheit
+
+console.log ("A temperatura em celsius para fahrenheit é: " + fahrenheit)
