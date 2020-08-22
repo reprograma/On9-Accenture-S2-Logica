@@ -1,0 +1,9 @@
+var ano = Number (prompt ("Digite o ano: "))
+var bissexto = 366
+
+if (ano / 4 = bissexto) {
+    console.log ("O ano é bissexto");
+}
+else (ano / 4 != bissexto) {
+    console.log ("O ano não é bissexto.");
+}

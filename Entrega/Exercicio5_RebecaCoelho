@@ -1,0 +1,13 @@
+var ladoA = Number (prompt ( "Digite o valor do lado A do triângulo:" ))
+var ladoB = Number (prompt ( "Digite o valor do lado B do triângulo: "))
+var ladoC = Number (prompt ( "Digite o valor da base do triângulo: "))
+
+if (ladoA == ladoB == ladoC) {
+    console.log ("Os lados formam triângulo equilátero.")
+} else if ( ladoB != ladoA != ladoC) {
+    console.log ("Os lados formam triângulo escaleno.")
+} else (ladoC > ladoA == ladoB) {
+    console.log ("Os lados formam um triângulo isósceles.")
+}
+
+

@@ -1,0 +1,7 @@
+var quantidadeKm = Number (prompt ("Digite a quantidade de kilometros andados pelo carro:" ))
+var quantidadeDiasAlugados = Number (prompt ("Digite a quantidade de dias em que o carro foi alugado:" ))
+var aluguelCarroDia = 60
+var valorKmRodado = 0.15 
+var precoPagar = quantidadeDiasAlugados * 60 + quantidadeKm * 0.15 
+
+console.log (O preço a pagar pelo carro alugado é o valor de: " + precoPagar)

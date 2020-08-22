@@ -1,0 +1,9 @@
+var quantidadeCigarrosDia = Number (prompt ("Digite a quantidade de cigarros fumados por dia: "))
+var quantidadeAnos = Number (prompt("Digite a quantidade de anos fumados: "))
+var minutosPorCigarro = 10 
+var diasAno = 360 
+var diasPerdidosFumante = quantidadeCigarrosDia * minutosPorCigarro * quantidadeAnos * diasAno
+
+if (quantidadeCigarrosDia * minutosPorCigarro * quantidadeAnos * diasAno = diasPerdidosFumante){
+    console.log (O total de dias perdidos ao fumante será de:")
+}
