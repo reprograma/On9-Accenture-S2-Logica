@@ -1,0 +1,106 @@
+   // Exercício 1
+   
+
+   let C = parseFloat(prompt("Entre com a temperatura em graus Celsius:"));
+   let F = C * (9 / 5) + 32;
+   console.log(" A temperatura em Fahrenheit é: {0}°F".format(F));
+  
+  // Exercício 2
+
+   let F = parseFloat(prompt("Entre com a temperatura em graus Fahrenheit: "))
+   let C = (F - 32) * (5 / 9)
+   console.log(" A temperatura em Celsius é:{0}ºC".format(C));
+
+
+  // Exercício 3
+
+   const pesoPeixes = Number(prompt("Quantos quilos de peixe você pescou?"));
+   
+   if pesos > 50:
+    pesos -= 50
+    excesso = pesos
+    multa = excesso * 4
+
+   console.log("Total da multa é: R$" + multa);
+   else:
+   console.log("Não teve excesso")
+
+   // Exercício 4 
+
+   Distancia = Number(prompt("Quantos Dias o Carro Ficou Alugado: "))
+   Km = parseFloat(prompt("Quantos Km foram rodados: "))
+   valor = (d*60)+(k*0.15)
+
+   console.log("O valor a ser pago é: R$".format(valor,Distancia,Km))  
+
+
+   // Exercício 5
+
+  let a = ("entre com o valor de a ")
+  console.log ("a")
+  let b = ("entre com o valor de b ")
+  console.log ("b")
+  let c = ("entre com o valor de c ")
+  console.log ("c")
+
+
+
+   // Exercício 6
+  var = NOME
+  var =N1, N2, N3, MEDIA
+  parseFloat(prompt("SISTEMA DE MÉDIAS"))
+  parseFloat(prompt("DIGITE A PRIMEIRA NOTA: "))
+  console.log(N1)
+  parseFloat(prompt("DIGITE A SEGUNDA NOTA: "))
+  console.log(N2)
+  parseFloat(prompt("DIGITE A TERCERIA NOTA: "))
+  console.log(N3)
+  MEDIA = (N1 + N2 + N3) / 3
+  if MEDIA >= 7 
+  console.log("ALUNO APROVADO!")
+  else
+  if MEDIA -= 5 
+  console.log("ALUNO REPROVADO!")
+  else
+  console.log("ALUNO EM RECUPERAÇÃO...")
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+  
+
