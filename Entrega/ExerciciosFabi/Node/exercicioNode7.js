@@ -11,4 +11,4 @@ var anos = 10
 let cigarros = ((qtdcigarros*10)/60)/24
 let dias = (anos*365)
 
-console.log("Nesse ritmo, você perderá de vida "+(cigarros+dias).toFixed(0)+" dias.")
+console.log("Nesse ritmo, você perderá de vida "+ Math.round(cigarros+dias)+" dias.")
